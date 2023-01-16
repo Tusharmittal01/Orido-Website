@@ -1,0 +1,833 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.padding{
+    padding: 0 24rem;
+}
+.top_bottom_padding{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+button{
+    cursor: pointer;
+}
+
+
+/*                    HEADER                      */
+
+
+header{
+    display: flex;
+    padding: 0 9.0625rem;
+    padding-top: 2.18rem;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+header li{
+    list-style: none;
+    margin: 0px 30px;
+    font-size: 25px;
+    display: inline;
+}
+header li a:hover{
+    opacity: 1;
+    border-bottom: 1px solid;
+}
+header li a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+.header_logo, .menu_contact{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+    padding-top: 13px;
+}
+header button{
+    background: none;
+    font-size: 25px;
+    padding: 14px 30px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+
+/*                      ABOUT OWNER                      */
+
+
+.about_owner{
+    display: flex;
+    padding-top: 6.25rem;
+    height: 45.938rem;
+}
+.left{
+    width: 40%;
+    padding-top: 6.875rem;
+}
+.right{
+    width: 60%;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.left h1{
+    font-size: 4.375rem;
+}
+.left .div1{
+    margin-top: 0.9375rem;
+    margin-bottom: 2.8125rem;
+}
+.left hr{
+    width: 65px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 1px solid;
+}
+.left h3{
+    font-size: 1.5625rem;
+}
+.left p{
+    font-size: 1.125rem;
+    opacity: 0.6;
+}
+.left .div2{
+    margin-top: 3.75rem;
+    height: 4.375rem;
+}
+.left button{
+    background: transparent;
+    font-size: 1.125rem;
+    padding: 1.75rem 3.25rem;
+    border-radius: 1.25rem;
+    border: none;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.left .button1{
+    float: left;
+}
+.left .button1 i{
+    margin-left: 0.5625rem;
+}
+.left .button2{
+    float: right;
+}
+.left button:hover{
+    background-color: #6244c5;
+    color: white;
+}
+.left .div3{
+    margin-top: 6.25rem;
+}
+.left .div3 a{
+    padding: 1.25rem;
+    border-radius: 50%;
+    background-color: #e5e6e6;
+    color: black;
+    margin: 0 0.625rem;
+}
+.left .div3 a:hover{
+    background-color: red;
+    color: white;
+}
+.left .mouse{
+    font-size: 35px;
+    margin-left: -11.5rem;
+    margin-top: 3.125rem;
+    cursor: pointer;
+}
+
+
+/*                     ABOUT ME                     */
+
+
+.about_me{
+    display: flex;
+    background-color: #6344c6;
+    padding: 10rem 25rem 6.25rem 25rem;
+}
+.about_me_content{
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.about_me h1{
+    font-size: 3.75rem;
+}
+.about_me hr{
+    width: 70px;
+    display: inline-block;
+}
+.about_me p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+.about_me .button{
+    margin-top: 5rem;
+}
+.about_me button{
+    font-size: 18px;
+    padding: 18px 50px;
+    border-radius: 0.625rem;
+    border: none;
+    float: left;
+}
+
+
+/*                     EXPERT AREAS                     */
+
+
+.expertise{
+    /* padding-top: 8.4375rem; */
+}
+.expertise .up_le{
+    width: 41%;
+}
+.expertise h1{
+    font-size: 3.75rem;
+}
+.expertise h1 hr{
+    width: 5.3125rem;
+    border: 1px solid;
+    opacity: 0.4;
+    display: inline-block;
+}
+.expertise .upper p{
+    font-size: 1.125rem;
+    opacity: 0.6;
+    line-height: 1.875rem;
+    margin-top: 1.875rem;
+}
+.expertise button{
+    font-size: 18px;
+    color: white;
+    border: none;
+    background: black;
+    padding: 22px 53px;
+    border-radius: 15px;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+.expertise .upper{
+    display: flex;
+}
+.expertise .up_ri{
+    padding-top: 50px;
+    padding-left: 29px;
+}
+.expertise .up_ri .up_ri_middle{
+    display: flex;
+    margin-top: 110px;
+}
+.expertise .up_ri .up_ri_bottom{
+    display: flex;
+    margin-top: 80px;
+}
+.expertise .up_ri .expertise_point{
+    width: 33%;
+}
+.expertise .up_ri .expertise_point h3{
+    margin-top: 14px;
+}
+.expertise .up_ri_upper > div{
+    display: inline;
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-right: 40px;
+    border: 1px solid white;
+}
+.expertise .up_ri_upper > div a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.expertise .up_ri_upper > div:hover{
+    border: 1px solid;
+}
+.expertise .up_ri_upper > div:hover > a{
+    text-decoration: underline;
+}
+.expertise .up_ri .expertise_point .logo{
+    background-color: black;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.expertise .up_ri .expertise_point .logo i{
+    background: white;
+    color: black;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+.expertise .expert_areas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+.expertise .expert_areas .area:nth-child(){
+    width: 25%;
+}
+.expertise .expert_areas .area .circle{
+    width: 70px;
+    height: 70px;
+    background: #ffc448;
+    border-radius: 50%;
+    position: relative;
+}
+.expertise .expert_areas .area .circle p{
+    position: absolute;
+    font-size: 65px;
+    top: -3px;
+    left: -7px;
+    font-weight: 600;
+}
+
+
+
+
+
+.all_services{
+    background-color: #fafafc;
+    /* padding-top: 120px;
+    padding-bottom: 108px; */
+}
+.all_services .services_we_provide{
+    height: 128px;
+}
+.all_services .services_heading{
+    float: left;
+}
+.all_services h1{
+    font-size: 50px;
+}
+.all_services h1 hr{
+    width: 75px;
+    display: inline-block;
+    border: 1px solid;
+    opacity: 0.4;
+}
+.all_services .explore_button{
+    float: right;
+}
+.all_services .explore_button button{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 20px 40px 23px 42px;
+    border-radius: 15px;
+}
+.all_services .explore_button button span{
+    font-size: 27px;
+    margin-left: 4px;
+}
+.all_services .services{
+    margin-top: 50px;
+}
+.all_services .services .service{
+    display: flex;
+    padding: 32px 10px;
+    cursor: pointer;
+    border-top: 2px solid grey;
+}
+.all_services .services .product_design{
+    border-bottom: 2px solid grey;
+}
+.all_services .number{
+    font-size: 24px;
+    width: 5%;
+    color: #6244c5;
+}
+.all_services .title{
+    font-size: 20px;
+    width: 35%;
+}
+.all_services .about_title{
+    font-size: 18px;
+    opacity: 0.5;
+    width: 55%;
+}
+.all_services .arrow{
+    width: 5%;
+    font-size: 35px;
+    color: #6244c5;
+}
+.all_services .service:hover{
+    background-color: #6244c5;
+    color: white;
+    transition: 80ms;
+    border-color: #6244c5;
+}
+.all_services .service:hover > .number{
+    color: white;
+}
+.all_services .service:hover > .arrow{
+    color: white;
+}
+.all_services .service:hover + .service{
+    border-color: #6244c5;
+}
+
+
+
+
+
+
+
+
+.recent_project{
+    background-color: #ffc448;
+    position: relative;
+}
+.heading_section{
+    height: 129px;
+}
+.heading{
+    float: left;
+}
+.heading h1{
+    font-size: 55px;
+}
+.heading h1 hr{
+    display: inline-block;
+    width: 70px;
+    border: 1px solid;
+}
+.recent_project .projects_labels{
+    float: right;
+    margin: 54px 0;
+}
+.recent_project .projects_labels ul{
+    list-style: none;
+}
+.recent_project .projects_labels ul li{
+    display: inline;
+    padding: 25px 28px;
+    border-radius: 15px;
+}
+.recent_project .projects_labels ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.recent_project .projects_labels ul li:hover{
+    background-color: #f26440;
+}
+.recent_project .projects_labels ul li:hover > a{
+    color: white;
+    text-decoration: underline;
+}
+.recent_project .all_projects{
+    display: flex;
+    margin: 65px 0;
+}
+.recent_project .all_projects .project{
+    width: 32%;
+    height: 510px;
+}
+.recent_project .all_projects .project .project_img{
+    width: 100%;
+    height: 77%;
+}
+.recent_project .all_projects .project .project_img img{
+    height: 100%;
+    width: 100%;
+}
+.recent_project .all_projects .project .project_content{
+    height: 19%;
+    width: 100%;
+}
+.recent_project .all_projects .project .project_content p{
+    font-size: 23px;
+    margin: 20px 0;
+}
+.recent_project .all_projects .project .project_content h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 31px;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+.recent_project .all_projects .middle_project{
+    margin: 0 23px;
+}
+.recent_project .project_button{
+    display: flex;
+    justify-content: center;
+}
+.recent_project .project_button button{
+    font-size: 20px;
+    padding: 25px 35px;
+    border-radius: 15px;
+    border: none;
+}
+.recent_project .arrow{
+    position: absolute;
+    top: 50%;
+    padding: 11px;
+    border: 1px solid #00000030;
+    border-radius: 50%;
+}
+.recent_project .left_arrow{
+    left: 14%;
+}
+.recent_project .right_arrow{
+    right: 14%;
+}
+
+
+
+
+
+.client_feedback .feedback_heading{
+    height: 129px;
+}
+.client_feedback .feedback_heading .feedback_button{
+    float: right;
+    padding: 31px 0;
+}
+.client_feedback .feedback_heading .feedback_button button{
+    background: transparent;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.client_feedback .clients{
+    height: 335px;
+    position: relative;
+}
+.client_feedback .clients .client_1{
+    width: 70%;
+    height: 100%;
+    margin-top: 80px;
+}
+.client_feedback .clients .client_1 .client_img{
+    width: 37%;
+    height: 100%;
+    float: left;
+}
+.client_feedback .clients .client_1 .client_review{
+    width: 53%;
+    float: left;
+    height: 100%;
+    padding: 20px 0 0 70px;
+}
+.client_feedback .clients .client_1 .client_review .review{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.client_feedback .clients .client_1 .client_review h3{
+    font-size: 22px;
+    margin-top: 45px;
+}
+.client_feedback .clients .client_1 .client_review h3 hr{
+    width: 30px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 15px;
+    margin-right: 11px;
+}
+.client_feedback .clients .client_1 .client_review h4{
+    font-size: 18px;
+    color: grey;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+.client_feedback .clients .client_2{
+    position: absolute;
+    right: -17%;
+    top: 0%;
+}
+.client_feedback .arrow{
+    position: absolute;
+    top: 44%;
+    padding: 15px 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.client_feedback .left_arrow{
+    left: -10%;
+}
+.client_feedback .right_arrow{
+    right: 20%;
+}
+.client_feedback .arrow:hover{
+    border-color: black;
+}
+.client_feedback .dots{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.client_feedback .dots .dot{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    opacity: 0.1;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.client_feedback .dots .dot:hover{
+    opacity: 1;
+    height: 12px;
+    width: 12px;
+}
+
+
+
+
+
+
+
+
+
+.achievements{
+    height: 550px;
+}
+.achievements .heading{
+    height: 67px;
+    width: 100%;
+}
+.achievements .achievements_content{
+    margin-top: 110px;
+}
+.achievements .achievements_content .trophy_img{
+    width: 49%;
+    float: left;
+}
+.achievements .achievements_content .trophy_img img{
+    width: 100%;
+    height: 100%;
+}
+.achievements_content .achievings{
+    float: right;
+    margin-top: -135px;
+}
+.achievements_content .achievings .achieve{
+    margin: 39px 0;
+}
+.achievements_content .achievings .achieve h4{
+    font-size: 22px;
+    margin-left: 45px;
+    color: #6244c5;
+}
+.achievements_content .achievings .achieve h3{
+    font-size: 32px;
+    margin: 20px 0;
+}
+.achievements_content .achievings .achieve h3 hr{
+    width: 30px;
+    border: 1px solid;
+    float: left;
+    margin-top: 0.5em;
+    margin-right: 0.4em;
+}
+.achievements_content .achievings .achieve p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+.blog_post .blog_heading{
+    height: 129px;
+}
+.blog_post .blog_heading .blog_button{
+    float: right;
+    margin: 31px 0;
+}
+.blog_post .blog_heading button{
+    background: transparent;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.blog_post .blog_post_cards .top_blogs, .blog_post .blog_post_cards .bottom_blogs{
+    display: flex;
+    justify-content: space-between;
+} 
+.blog_post .blog_post_cards .blog_card{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-image: url('../images/geeting_card_bg.jpg');
+    background-size: 100% 100%;
+}
+.blog_post .blog_post_cards .blog_card .card_content{
+    width: 42%;
+}
+.blog_post .blog_post_cards .blog_card .card_content ul{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_post .blog_post_cards .blog_card .card_content ul li{
+    list-style: none;
+}
+.blog_post .blog_post_cards .blog_card .card_content ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.blog_post .blog_post_cards .blog_card .card_content h3{
+    font-size: 21px;
+    margin-top: 15px;
+    margin-bottom: 51px;
+}
+.blog_post .blog_post_cards .blog_card .card_content h4 a{
+    color: black;
+}
+.blog_post .blog_post_cards .bottom_blogs{
+    margin-top: 35px;
+}
+.blog_post .blog_post_cards{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer .upper_footer{
+    background-color: #11141d;
+    position: relative;
+}
+footer .upper_footer .together_work{
+    display: flex;
+    height: 167px;
+}
+footer .upper_footer .together_work .wheel_img{
+    width: 14.5%;
+    height: 100%;
+}
+footer .upper_footer .together_work .wheel_img img{
+    width: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+footer .upper_footer .together_work .work_content{
+    margin: 0 147px;
+    color: white;
+}
+footer .upper_footer .together_work .work_content h1{
+    font-size: 55px;
+}
+footer .upper_footer .together_work .work_content p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+footer .upper_footer .together_work .button{
+    width: 30%;
+}
+footer .upper_footer .together_work button{
+    font-size: 20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    margin: 52px 0;
+    background-color: #6244c5;
+}
+.contact_support{
+    margin-top: 110px;
+    height: 80px;
+}
+.contact_support .left_contact_support{
+    float: left;
+}
+.contact_support .left_contact_support ul > li{
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: 70px;
+}
+.contact_support .left_contact_support ul > li p:first-child{
+    color: white;
+    opacity: 0.5;
+}
+.contact_support .left_contact_support ul a{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+.contact_support .right_contact_support{
+    float: right;
+    margin-top: 18px;
+}
+.contact_support .right_contact_support li{
+    display: inline-block;
+    color: white;
+    margin: 0 9px;
+}
+.contact_support .right_contact_support li a{
+    color: white;
+    background: #37373f;
+    padding: 19px;
+    border-radius: 50%;
+}
+footer .design1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+footer .design2{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+footer .design3{
+    position: absolute;
+    right: 130px;
+    top: 120px;
+}
+footer .lower_footer{
+    height: 84px;
+    background: #ffc448;
+}
+footer .lower_footer .left_lower_footer{
+    float: left;
+    margin: 20px 0;
+}
+footer .lower_footer .right_lower_footer{
+    float: right;
+    margin: 33px 0;  
+}
+footer .lower_footer .right_lower_footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
