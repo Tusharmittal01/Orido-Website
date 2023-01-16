@@ -296,7 +296,7 @@ header button{
 }
 
 
-
+/*                     ALL SERVICES                     */
 
 
 .all_services{
@@ -381,9 +381,7 @@ header button{
 }
 
 
-
-
-
+/*                     PROJECTS                     */
 
 
 
@@ -489,6 +487,8 @@ header button{
 
 
 
+/*                     CLIENT FEEDBACK                     */
+
 
 
 .client_feedback .feedback_heading{
@@ -590,11 +590,7 @@ header button{
 }
 
 
-
-
-
-
-
+/*                     ACHIEVEMENTS                     */
 
 
 .achievements{
@@ -644,8 +640,7 @@ header button{
 
 
 
-
-
+/*                     BLOGS AND POSTS                     */
 
 
 
@@ -714,14 +709,11 @@ header button{
 }
 
 
+/*                            FOOTER                            */
 
 
 
-
-
-
-
-
+/*                     UPPER FOOTER                     */
 
 
 footer .upper_footer{
@@ -819,6 +811,12 @@ footer .design3{
     right: 130px;
     top: 120px;
 }
+
+
+/*                     LOWER FOOTER                     */
+
+
+
 footer .lower_footer{
     height: 84px;
     background: #ffc448;
